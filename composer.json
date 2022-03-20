@@ -1,0 +1,23 @@
+{
+    "name": "jackproceo/commonfunc",
+    "description": "一些php 常见 函数 ",
+    "keywords": ["functions", "php", "常用函数"],
+    "authors": [
+        {
+            "name": "jack",
+            "email": "20489800@qq.com",
+            "homepage": "https://wai-mao.top",
+            "role": "Developer"
+        }
+    ],
+    "homepage":"https://www.wai-mao.top",
+    "license":"MIT",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "jackproceo\\commonfunc\\": "src"
+        }
+    }
+}
